@@ -8,6 +8,6 @@ import com.devsuperior.dsdelivey.entities.Product;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
 	
-	List<Product>findAllByNameAsc();
+	List<Product> findAllByOrderByNameAsc();
 
 }
