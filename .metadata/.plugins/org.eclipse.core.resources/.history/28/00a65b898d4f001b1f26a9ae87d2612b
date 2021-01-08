@@ -1,0 +1,5 @@
+package com.devsuperior.dsdelivey.dto;
+
+public class ProductDTO {
+
+}

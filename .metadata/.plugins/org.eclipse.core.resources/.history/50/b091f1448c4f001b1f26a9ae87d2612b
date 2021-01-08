@@ -1,0 +1,5 @@
+package com.devsuperior.dsdelivey.repositories;
+
+public class ProductRepository {
+
+}
