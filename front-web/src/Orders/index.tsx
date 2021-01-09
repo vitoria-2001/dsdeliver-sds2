@@ -1,5 +1,5 @@
 import React from "react";
-import ProductsList from "./ProductsList";
+import ProductsList from './ProductsList';
 import StepsHeader from "./StepsHeader";
 import {useEffect, useState} from 'react';
 import { toast } from 'react-toastify';
@@ -46,7 +46,7 @@ const handleSelectProduct = (product: Product) => {
     }
   
     saveOrder(payload).then((response) => {
-      toast.error('Pedido enviado com sucesso! N°  ${response.data.id}');
+      toast.error(`Pedido enviado com sucesso! N° ${response.data.id}`);
       setSelectedProducts([]);
     })
       .catch(() => {
